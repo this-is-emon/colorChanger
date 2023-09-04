@@ -1,0 +1,54 @@
+html{
+    margin: 0;
+}
+body{
+    background-color: #d69797;
+    color: aliceblue;
+}
+
+/* span{
+    display: block;
+} */
+
+.canvas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 100px auto 100px;
+    width: 80%;
+    text-align: center;
+
+}
+.color-button{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+
+}
+.button{
+    width: 100px;
+    height: 50px;
+    border: 2px solid black;
+    /* display: inline-block; */
+    border-radius: 10px;
+    text-align:center;
+    font-weight: 800;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#darkslategray{
+    background: darkslategray;
+}
+
+#darkorange{
+    background: darkorange;
+}
+
+#crimson{
+    background: crimson;
+}
+
+#lightgreen{
+    background:lightgreen;
+}
